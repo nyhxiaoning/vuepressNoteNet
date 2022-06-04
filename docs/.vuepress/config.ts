@@ -3,6 +3,11 @@ const path = require("path");
 // const { docsearchPlugin } = require("@vuepress/plugin-docsearch");
 // vue3配置默认 的主题配置
 const { defaultTheme } = require("@vuepress/theme-default");
+const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
+
+// 简单搜索版本
+const { searchPlugin } = require('@vuepress/plugin-search')
+
 // module.exports = {
 //   theme: path.resolve(__dirname, './docs/.vuepress/theme'),
 //   lang: "zh-CN",
@@ -80,8 +85,15 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "成长依旧，步履未停",
   description: "这是我的第一个 VuePress 站点",
-  // 增加插件配置
-  // plugins: docsearchPlugin({
+  // 增加插件配置:
+  plugins: [
+    // 复杂窗口页面
+    docsearchPlugin({
 
-  // })
+    }),
+    // 简单搜索
+    searchPlugin({
+
+    })
+  ]
 });
