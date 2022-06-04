@@ -26,3 +26,6 @@ categories:
 
 <!-- 绝对路径 -->
 [指南](/zh/guide/README.md)  
+
+
+## 补充学习deploy.sh脚本命令提交
