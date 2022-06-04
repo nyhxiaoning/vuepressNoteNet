@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
-const path = require('path')
-const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
+const path = require("path");
+const { docsearchPlugin } = require("@vuepress/plugin-docsearch");
 // vue3配置默认 的主题配置
 const { defaultTheme } = require("@vuepress/theme-default");
 // module.exports = {
@@ -11,12 +11,10 @@ const { defaultTheme } = require("@vuepress/theme-default");
 // }
 export default defineUserConfig({
   // 增加搜索功能
-plugin:[
-  docsearchPlugin({})
-],
+  docsearchPlugin({}),
   // vuepress2默认主题配置
   theme: defaultTheme({
-    head: [['link', { rel: 'icon', href: '/images/home.jpg' }]],
+    head: [["link", { rel: "icon", href: "/images/home.jpg" }]],
     // Public 文件路径
     logo: "/images/home.jpg",
     //  URL
