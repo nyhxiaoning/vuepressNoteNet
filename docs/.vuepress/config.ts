@@ -10,8 +10,7 @@ const { defaultTheme } = require("@vuepress/theme-default");
 //   description: "这是我的第一个 VuePress 站点",
 // }
 export default defineUserConfig({
-  // 增加搜索功能
-  docsearchPlugin({}),
+  // 增加搜索功
   // vuepress2默认主题配置
   theme: defaultTheme({
     head: [["link", { rel: "icon", href: "/images/home.jpg" }]],
@@ -81,4 +80,8 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "成长依旧，步履未停",
   description: "这是我的第一个 VuePress 站点",
+  // 增加插件配置
+  plugins: docsearchPlugin({
+
+  })
 });
