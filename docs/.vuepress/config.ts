@@ -1,5 +1,4 @@
 import { defineUserConfig } from "vuepress";
-const { path } = require('@vuepress/utils')
 
 // const { docsearchPlugin } = require("@vuepress/plugin-docsearch");
 // vue3配置默认 的主题配置
@@ -45,13 +44,11 @@ export default defineUserConfig({
       },
       // 控制元素何时被激活
       {
-        text: "前端复习架构参考",
+        text: "前端复习架构持续化学习",
         children: [
           {
-            text: "Always active",
-            link: "/",
-            // 该元素将一直处于激活状态
-            activeMatch: "/",
+            text: "个人git项目汇总和更新记录",
+            link: "https://www.processon.com/mindmap/61e232770e3e744157810e27",
           },
           {
             text: "前端复习纲要汇总",
@@ -67,7 +64,32 @@ export default defineUserConfig({
           {
             text:"前端工程化一体化梳理汇总",
             link:"https://www.processon.com/mindmap/617781871efad44894fbe29d"
+          },
+          {
+            text:"个人git项目持续集成和优化提升",
+            link:'https://www.processon.com/mindmap/61e232770e3e744157810e27'
           }
+        ],
+      },
+      {
+        text: "技术架构更新学习网站汇总",
+        children: [
+          {
+            text: "前端库变化的一些动态化",
+            link: "https://2021.stateofjs.com/zh-Hans/libraries/",
+          },
+          {
+            text: "大圣前端编程学习网站",
+            link: "https://shengxinjing.cn/",
+          },
+          {
+            text:"前端搜索库解决方案openbase",
+            link:"https://openbase.com/search?q="
+          },
+          {
+            text:"",
+            link:"https://www.processon.com/mindmap/617781871efad44894fbe29d"
+          },
         ],
       },
     ],
