@@ -25,21 +25,17 @@ export default defineUserConfig({
   // 增加搜索功
   // vuepress2默认主题配置
   theme: defaultTheme({
-    head: [["link", { rel: "icon", href: "/images/go.jpg" }]],
     // Public 文件路径
     logo: "/images/home.png",
     //  URL
     //  logo: 'https://vuejs.org/images/logo.png',
     // 代码仓库地址设置
     repo: "https://github.com/nyhxiaoning/vuepressNoteNet.git",
-    darkMode: true,
-    // 在这里进行配置
-    home: "/",
     // 设置导航栏
     navbar: [
       // 嵌套 Group - 最大深度为 2
       {
-        text: "前端学习架构",
+        text: "前端学习架构参考",
         children: [
           {
             text: "SubGroup",
@@ -49,7 +45,7 @@ export default defineUserConfig({
       },
       // 控制元素何时被激活
       {
-        text: "前端复习架构",
+        text: "前端复习架构参考",
         children: [
           {
             text: "Always active",
@@ -99,7 +95,7 @@ export default defineUserConfig({
   }),
   // theme:localTheme({}),
   lang: "zh-CN",
-  title: "",
+  title: "Hello,World",
   description: "这是我的第一个 VuePress 站点",
   // 增加插件配置:
   plugins: [
