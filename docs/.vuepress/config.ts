@@ -58,12 +58,20 @@ export default defineUserConfig({
             activeMatch: "/",
           },
           {
-            text: "Active on /foo/",
-            link: "/not-foo/",
+            text: "前端复习纲要汇总",
+            link: "https://www.processon.com/mindmap/626b4a7d7d9c08072830f4d8",
             // 该元素在当前路由路径是 /foo/ 开头时激活
             // 支持正则表达式
             activeMatch: "^/foo/",
           },
+          {
+            text:"ts一站式复习内容汇总",
+            link:"https://www.processon.com/mindmap/620b775a0791297996128e09"
+          },
+          {
+            text:"前端工程化一体化梳理汇总",
+            link:"https://www.processon.com/mindmap/617781871efad44894fbe29d"
+          }
         ],
       },
     ],
@@ -100,9 +108,9 @@ export default defineUserConfig({
 
     // }),
     // 简单搜索
-    // searchPlugin({
+    searchPlugin({
 
-    // }),
+    }),
     backToTopPlugin(),
     externalLinkIconPlugin(),
     nprogressPlugin(),

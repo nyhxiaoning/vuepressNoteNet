@@ -3,59 +3,118 @@
 [[toc]]
 # 全栈学习之旅
 
-# 一定要生活
 
 # 00个人前端项目实战记录和链接
 
 
-home: true
-html
 
 <el-button type="primary">我是Element-Plus</el-button>
 
 <el-button type="primary">我是Element-Plus</el-button>
 
-
-## 一级菜单列表
 
 [首页](../README.md)  
 [00个人前端项目实战记录和链接](./00个人前端项目实战记录和链接/000README.md)  
-[test](./test/read.md)  
 
 
-<!-- 绝对路径 -->
-[指南](/zh/guide/README.md)  
-
-## 二级菜单内容
+## 00个人前端项目实战记录和链接
+### （000）资料相关链接
 
 
+[001uniapp课程学习笔记和问题001](./001掘金课程记录和问题.md)
 
-
-## 每一个菜单
-
+## 01React课程学习和问题笔记
+### （000）资料相关链接
 
 
 
-## 第一个下面的内容
-~~~
-dd
-
-
-ddd
-
-
-ddd
-
-
-- ddd
-
-
-- ddd
+## 02极客时间Vue课程学习和问题笔记
+### （000）资料相关链接
 
 
 
+## 03掘金算法课程学习和问题笔记
+### （000）资料相关链接
 
-~~~
+
+
+## 04掘金Uniapp课程学习笔记
+### （000）资料相关链接
+
+
+## 05leetcode刷题记录每周
+### （000）资料相关链接
+
+
+
+## 06极客时间Node全栈记录
+### （000）资料相关链接
+
+
+## 07React学习常见问题和笔记记录
+### （000）资料相关链接
+
+
+## 08vue常见问题和学习记录
+### （000）资料相关链接
+
+
+## 08React常见问题和学习记录
+### （000）资料相关链接
+
+
+
+
+## 09book前端进阶知识学习图书笔记
+### （000）资料相关链接
+
+
+## 10book前端开发设计模式和开发实战笔记
+### （000）资料相关链接
+
+
+## 11elementplus经典源码和实战学习和问题笔记
+### （000）资料相关链接
+
+
+
+## 12前端开发经典库学习记录
+### （000）资料相关链接
+
+
+
+## 13Koa和express框架学习记录
+### （000）资料相关链接
+
+
+## 14前端图形化学习
+2D和3D
+
+### （000）资料相关链接
+
+
+### （1）3D阿里巴巴的技术图形化
+
+### （2）fabricjs库学习
+
+### （3）pixjs库学习
+
+## 15前端拓展知识学习
+
+
+## 个人低代码实现平台记录
+
+
+## 个人leetcode刷题记录
+
+
+## 个人elementplus记录
+
+
+
+
+
+
 
 
 ## vuepress功能引入和修改记录
@@ -87,4 +146,15 @@ clientAppEnhance.ts
 - client.ts增加全局钩子和全局UI组件
 rootComponents 是一个组件数组，它们将会直接被放置在客户端 Vue 应用的根节点下。
 
-[全局钩子和UI](https://v2.vuepress.vuejs.org/zh/advanced/cookbook/usage-of-client-config.html#%E4%BD%BF%E7%94%A8%E4%B8%8D%E6%94%AF%E6%8C%81-ssr-%E7%9A%84%E5%8A%9F%E8%83%BD)
+[全局钩子和UI](https://v2.vuepress.vuejs.org/zh/advanced/cookbook)
+
+- vuepress中引入绝对路径和相关路径
+<!-- 绝对路径 -->
+
+~~~
+
+[指南](/zh/guide/README.md)  
+<!-- 相对路径 -->
+![成长](/images/home.png)
+
+~~~
