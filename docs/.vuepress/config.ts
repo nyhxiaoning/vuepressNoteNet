@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 const path = require("path");
-const { docsearchPlugin } = require("@vuepress/plugin-docsearch");
+// const { docsearchPlugin } = require("@vuepress/plugin-docsearch");
 // vue3配置默认 的主题配置
 const { defaultTheme } = require("@vuepress/theme-default");
 // module.exports = {
@@ -81,7 +81,7 @@ export default defineUserConfig({
   title: "成长依旧，步履未停",
   description: "这是我的第一个 VuePress 站点",
   // 增加插件配置
-  plugins: docsearchPlugin({
+  // plugins: docsearchPlugin({
 
-  })
+  // })
 });
