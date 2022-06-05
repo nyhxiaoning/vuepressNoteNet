@@ -47,15 +47,14 @@ export default defineUserConfig({
         text: "前端复习架构持续化学习",
         children: [
           {
-            text: "个人git项目汇总和更新记录",
-            link: "https://www.processon.com/mindmap/61e232770e3e744157810e27",
+            text: "个人快捷键汇总和更新记录",
+            link: "https://www.processon.com/mindmap/60d6e4a3f346fb5e35b48b04",
           },
           {
             text: "前端复习纲要汇总",
             link: "https://www.processon.com/mindmap/626b4a7d7d9c08072830f4d8",
             // 该元素在当前路由路径是 /foo/ 开头时激活
             // 支持正则表达式
-            activeMatch: "^/foo/",
           },
           {
             text:"ts一站式复习内容汇总",
@@ -68,7 +67,11 @@ export default defineUserConfig({
           {
             text:"个人git项目持续集成和优化提升",
             link:'https://www.processon.com/mindmap/61e232770e3e744157810e27'
-          }
+          },
+          {
+            text: "个人git项目汇总和更新记录",
+            link: "https://www.processon.com/mindmap/61e232770e3e744157810e27",
+          },
         ],
       },
       {
