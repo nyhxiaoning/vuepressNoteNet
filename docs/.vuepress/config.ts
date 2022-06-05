@@ -119,6 +119,8 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "Hello,World",
   description: "这是我的第一个 VuePress 站点",
+  // TODO:设置站点部署的目录，这样打包的时候，资源可以找到
+  base:"/dist/",
   // 增加插件配置:
   plugins: [
     // 复杂窗口页面
