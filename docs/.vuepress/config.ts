@@ -29,16 +29,28 @@ export default defineUserConfig({
     //  URL
     //  logo: 'https://vuejs.org/images/logo.png',
     // 代码仓库地址设置
-    repo: "https://github.com/nyhxiaoning/vuepressNoteNet.git",
+    // repo: "https://github.com/nyhxiaoning/vuepressNoteNet.git",
     // 设置导航栏
     navbar: [
       // 嵌套 Group - 最大深度为 2
       {
-        text: "前端学习架构参考",
+        text: "前端常用工具网站参考",
         children: [
           {
-            text: "SubGroup",
-            children: ["/group/sub/foo.md", "/group/sub/bar.md"],
+            text:'前端站点学习汇总网站',
+            link:'https://www.kwgg2020.com/'
+          },
+          {
+            text: "在线实时练习vue2/3.React练习场",
+            link: "http://lxqnsys.com/code-run/#/",
+          },
+          {
+            text: "elementplus实时练习场学习",
+            link: "http://lxqnsys.com/code-run/#/",
+          },
+          {
+            text: "typeScript实时练习场学习",
+            link: "https://www.typescriptlang.org/zh/play#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCoASMFmgY7p7ehCTkVOle4jUMdRLYTqCc8LEZzCZmoNJODPHFZZXVtZYYkAAeRJTInDQS8po+rf40gnjbDKv8LqD2jpbYoACqAEoAMsK7sUmxkGSCc+VVQQuaTwVb1UBrDYULY7PagbgUZLJH6QbYmJAECjuMigZEMVDsJzCFLNXxtajBBCcQQ0MwAUVWDEQNUgADVHBQGNJ3KAALygABEAAkYNAMOB4GRogLFFTBPB3AExcwABT0xnM9zsyhc9wASmCKhwDQ8ZC8iElzhB7Bo3zcZmY7AYzEg-Fg0HUiS58D0Ii8AoZTJZggFSRxAvADlQAHJhAA5SASAVBFQAeW+ZF2gldWkgx1QjgUrmkeFATgtOlGWH0KAQiBhwiudokkuiIgMHBx3RYbC43CCJSAA",
           },
         ],
       },

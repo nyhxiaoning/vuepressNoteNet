@@ -16,3 +16,8 @@
 
 
 ### （003）pixjs库学习
+
+
+### (004) zRender渲染器2D的echart
+- [Zrender](https://ecomfe.github.io/zrender-doc/public/)
+ZRender (opens new window)：A lightweight canvas library which providing 2d draw for Apache ECharts (incubating)。ZRender 是二维绘图引擎，它提供 Canvas、SVG、VML 等多种渲染方式。
