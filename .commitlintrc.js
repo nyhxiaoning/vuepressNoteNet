@@ -22,30 +22,30 @@ module.exports = {
       },
       types: [
         {
-          value: "feat",
+          value: "feat",//feature
           name: "feat:     ✨  A new feature",
           emoji: ":sparkles:",
         },
         { value: "fix", name: "fix:      🐛  A bug fix", emoji: ":bug:" },
         {
-          value: "docs",
+          value: "docs",//docs
           name: "docs:     📝  Documentation only changes",
           emoji: ":memo:",
         },
         {
-          value: "style",
+          value: "style",//
           name:
             "style:    💄  Changes that do not affect the meaning of the code",
           emoji: ":lipstick:",
         },
         {
-          value: "refactor",
+          value: "refactor",//重构
           name:
             "refactor: ♻️   A code change that neither fixes a bug nor adds a feature",
           emoji: ":recycle:",
         },
         {
-          value: "perf",
+          value: "perf",//
           name: "perf:     ⚡️  A code change that improves performance",
           emoji: ":zap:",
         },
@@ -66,7 +66,7 @@ module.exports = {
           emoji: ":green_heart:",
         },
         {
-          value: "chore",
+          value: "chore",//工具插件
           name: "chore:    🔨  Other changes that don't modify src or test files",
           emoji: ":hammer:",
         },
