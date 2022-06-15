@@ -12,3 +12,9 @@
 
 ### 002css常见样式实现方案汇总
 - [css常见样式实现方案](https://csscoco.com/inspiration/#/./cssdoodle/bg-artist-clippath?id=css-inspiration)
+
+### 001掘金课程记录和问题
+[001掘金课程记录和问题](./001%E6%8E%98%E9%87%91%E8%AF%BE%E7%A8%8B%E8%AE%B0%E5%BD%95%E5%92%8C%E9%97%AE%E9%A2%98.md)
+
+### 002001前端经典问题考究思考
+[001前端经典问题考究思考](./001%E5%89%8D%E7%AB%AF%E7%BB%8F%E5%85%B8%E9%97%AE%E9%A2%98%E8%80%83%E7%A9%B6%E6%80%9D%E8%80%83.md)
