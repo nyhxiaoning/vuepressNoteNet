@@ -97,6 +97,7 @@
 
 ## 其他常用
 ### 打包指定文件夹
+[各种指定参数参考学习地址](https://cli.vuejs.org/zh/guide/cli-service.html#vue-cli-service-build)
 ~~~
 指定为根项目的文件夹
  npm run docs:build  -- --dest='./dist'
