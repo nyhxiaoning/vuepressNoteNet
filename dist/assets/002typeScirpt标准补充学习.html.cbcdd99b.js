@@ -1,0 +1,1 @@
+import{_,o as e,c as t}from"./app.82caa39f.js";const c={};function r(o,a){return e(),t("div")}var p=_(c,[["render",r],["__file","002typeScirpt\u6807\u51C6\u8865\u5145\u5B66\u4E60.html.vue"]]);export{p as default};
