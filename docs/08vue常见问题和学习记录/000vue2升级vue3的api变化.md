@@ -2,8 +2,6 @@
 
 
 
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/337871096)
-
 vue3 新内容  
 ## 一.Composition API  
 将数据、方法、computed、生命周期函数, 集中写在一个地方。  
