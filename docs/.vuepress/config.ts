@@ -63,6 +63,10 @@ export default defineUserConfig({
             link: "https://www.processon.com/mindmap/60d6e4a3f346fb5e35b48b04",
           },
           {
+            text: "个人全栈架构一体化的实现位置",
+            link: "https://app.yinxiang.com/shard/s37/nl/24388549/717c6df8-60ec-4a80-b02e-c968f44016df",
+          },
+          {
             text: "前端复习纲要汇总",
             link: "https://www.processon.com/mindmap/626b4a7d7d9c08072830f4d8",
             // 该元素在当前路由路径是 /foo/ 开头时激活
