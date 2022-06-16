@@ -2,6 +2,7 @@
   "name": "vuepressNoteNet",
   "version": "1.0.1",
   "main": "index.js",
+  "homepage": "https://nyhxiaoning.github.io/dist",
   "repository": "https://github.com/nyhxiaoning/vuepressNoteNet.git",
   "author": "daning <1540097293@qq.com>",
   "license": "MIT",
@@ -26,6 +27,8 @@
     }
   },
   "scripts": {
+    "predeploy": "npm run docs:build  --  --dest='./dist'",
+    "deploy": "gh-pages -d build",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   }
