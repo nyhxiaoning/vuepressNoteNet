@@ -110,6 +110,15 @@ ts
 [17低代码学习和总结](./17低代码学习和总结/000README.md)
 
 
+## 其他常用
+### 打包指定文件夹
+[各种指定参数参考学习地址](https://cli.vuejs.org/zh/guide/cli-service.html#vue-cli-service-build)
+~~~
+指定为根项目的文件夹
+ npm run docs:build  -- --dest='./dist'
 
+如果没有指定，当前项目配置后，会将文件输出到vuepress下
+
+~~~
 
 

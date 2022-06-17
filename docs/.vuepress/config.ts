@@ -29,16 +29,28 @@ export default defineUserConfig({
     //  URL
     //  logo: 'https://vuejs.org/images/logo.png',
     // 代码仓库地址设置
-    repo: "https://github.com/nyhxiaoning/vuepressNoteNet.git",
+    // repo: "https://github.com/nyhxiaoning/vuepressNoteNet.git",
     // 设置导航栏
     navbar: [
       // 嵌套 Group - 最大深度为 2
       {
-        text: "前端学习架构参考",
+        text: "前端常用工具网站参考",
         children: [
           {
-            text: "SubGroup",
-            children: ["/group/sub/foo.md", "/group/sub/bar.md"],
+            text:'前端站点学习汇总网站',
+            link:'https://www.kwgg2020.com/'
+          },
+          {
+            text: "在线实时练习vue2/3.React练习场",
+            link: "http://lxqnsys.com/code-run/#/",
+          },
+          {
+            text: "elementplus实时练习场学习",
+            link: "http://lxqnsys.com/code-run/#/",
+          },
+          {
+            text: "typeScript实时练习场学习",
+            link: "https://www.typescriptlang.org/zh/play#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCoASMFmgY7p7ehCTkVOle4jUMdRLYTqCc8LEZzCZmoNJODPHFZZXVtZYYkAAeRJTInDQS8po+rf40gnjbDKv8LqD2jpbYoACqAEoAMsK7sUmxkGSCc+VVQQuaTwVb1UBrDYULY7PagbgUZLJH6QbYmJAECjuMigZEMVDsJzCFLNXxtajBBCcQQ0MwAUVWDEQNUgADVHBQGNJ3KAALygABEAAkYNAMOB4GRogLFFTBPB3AExcwABT0xnM9zsyhc9wASmCKhwDQ8ZC8iElzhB7Bo3zcZmY7AYzEg-Fg0HUiS58D0Ii8AoZTJZggFSRxAvADlQAHJhAA5SASAVBFQAeW+ZF2gldWkgx1QjgUrmkeFATgtOlGWH0KAQiBhwiudokkuiIgMHBx3RYbC43CCJSAA",
           },
         ],
       },
@@ -47,15 +59,18 @@ export default defineUserConfig({
         text: "前端复习架构持续化学习",
         children: [
           {
-            text: "个人git项目汇总和更新记录",
-            link: "https://www.processon.com/mindmap/61e232770e3e744157810e27",
+            text: "个人快捷键汇总和更新记录",
+            link: "https://www.processon.com/mindmap/60d6e4a3f346fb5e35b48b04",
+          },
+          {
+            text: "个人全栈架构一体化的实现位置",
+            link: "https://app.yinxiang.com/shard/s37/nl/24388549/717c6df8-60ec-4a80-b02e-c968f44016df",
           },
           {
             text: "前端复习纲要汇总",
             link: "https://www.processon.com/mindmap/626b4a7d7d9c08072830f4d8",
             // 该元素在当前路由路径是 /foo/ 开头时激活
             // 支持正则表达式
-            activeMatch: "^/foo/",
           },
           {
             text:"ts一站式复习内容汇总",
@@ -68,7 +83,11 @@ export default defineUserConfig({
           {
             text:"个人git项目持续集成和优化提升",
             link:'https://www.processon.com/mindmap/61e232770e3e744157810e27'
-          }
+          },
+          {
+            text: "个人git项目汇总和更新记录",
+            link: "https://www.processon.com/mindmap/61e232770e3e744157810e27",
+          },
         ],
       },
       {
@@ -119,6 +138,8 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "Hello,World",
   description: "这是我的第一个 VuePress 站点",
+  // TODO:设置站点部署的目录，这样打包的时候，资源可以找到
+  base:"/dist/",
   // 增加插件配置:
   plugins: [
     // 复杂窗口页面
