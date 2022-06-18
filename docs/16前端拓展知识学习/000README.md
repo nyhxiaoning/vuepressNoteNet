@@ -11,6 +11,17 @@
 
 - [前端面试官合集]
 
+- 
+
+
+## 前端通用知识部分
+### ts
+- [ts通关的类型体操](https://app.yinxiang.com/shard/s37/nl/24388549/2bef5513-1344-454a-a3d8-e41e14bbf319)
+### js底层学习
+[重学前端](https://app.yinxiang.com/shard/s37/nl/24388549/7b51b3ca-dc1d-4d15-a281-5faf774b61b8)
+https://app.yinxiang.com/shard/s37/nl/24388549/7b51b3ca-dc1d-4d15-a281-5faf774b61b8
+### 浏览器原理和实战
+https://app.yinxiang.com/shard/s37/nl/24388549/689040c6-7de0-4ba0-9262-4dddcd08c25d
 - [个人练习面试题目汇总](D:\works\interviewFold\leetcode-javascript)
 
 ## 001最新ECMA标准js学习
