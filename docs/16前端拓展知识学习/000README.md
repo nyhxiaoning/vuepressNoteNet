@@ -6,6 +6,8 @@
 ## 回到博客主页
 [博客首页](./../README.md)  
 
+### 000前端架构师体系化学习
+[000前端架构师体系化学习](000%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84%E5%B8%88%E4%BD%93%E7%B3%BB%E5%8C%96%E5%AD%A6%E4%B9%A0.md)
 ### (000)前端面试题合集
 - [前端面试题合集pdf版本](https://gitee.com/nyhxiaoning/interviewBooks/tree/master/%E7%AC%AC3%E7%89%88%EF%BC%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%89%8D%E7%AB%AF%E5%A4%A7%E5%8E%82%E9%9D%A2%E8%AF%95%E9%A2%98%20-%20%E7%94%B5%E5%AD%90%E7%89%88)
 
@@ -32,3 +34,4 @@ https://app.yinxiang.com/shard/s37/nl/24388549/689040c6-7de0-4ba0-9262-4dddcd08c
 [002typeScirpt标准补充学习](./002typeScirpt%E6%A0%87%E5%87%86%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0.md)
 
 
+## 

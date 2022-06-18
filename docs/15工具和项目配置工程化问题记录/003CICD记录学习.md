@@ -167,9 +167,10 @@ dda2569e0f164b7a975f7d1525119767
 ~~~
 
 安装界面出现一些插件的报错，可以替换或是稍后再次安装
+~~~
 
-![image-20220618233107693](C:\Users\rongm\AppData\Roaming\Typora\typora-user-images\image-20220618233107693.png)
-
+[image-20220618233107693]
+~~~
 
 ## 第二部分：ubuntu部分
 ## ubuntu环境学习docker和部署
