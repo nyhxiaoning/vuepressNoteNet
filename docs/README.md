@@ -125,3 +125,5 @@ ts
 ### 偶尔vuepress打包npm i安装出现问题
 使用yarn 安装就可以了
 
+
+## jenkins触发测试
