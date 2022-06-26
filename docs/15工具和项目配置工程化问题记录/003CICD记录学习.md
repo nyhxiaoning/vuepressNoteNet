@@ -326,3 +326,68 @@ sudo service docker start
 
 
 
+
+
+## zx脚本工具的学习
+Google 的 zx.js 提供了封装子进程的创建以及从这些进程处理 stdout 和 stderr 的函数。
+
+下面将使用的主要函数是 $ 函数，使用 zx.js 规定脚本写入扩展名为 .mjs 的文件中，以便能够在顶层使用 await。
+如果习惯于 .js 扩展名，请将脚本包装在类似 void async function () {...}() 中。
+
+
+## zx脚本使用方法
+然后我们需要在我们的脚本文件开头（顶部）添加特殊注释标记为 zx 脚本
+
+#！/usr/bin/env zx
+
+执行： zx ./index.mjs
+ 
+### linux系统使用
+
+####给文件加权限
+chmod +x index.mjs
+
+#### 执行文件
+./index.mjs
+
+
+### 常用的函数
+zx 提供了其他几个实用函数来简化 shell 脚本编写，例如：
+
+cd(). 这允许我们更改当前的工作目录
+question(). 这是 Node.js readline模块的包装器，它可以直接提示用户输入
+sleep(). setTimeout 包装器
+
+chalk：允许为脚本的输出添加颜色。fetch：可以使用它来发出 HTTP 请求。fs-extra：公开了 Node.js 核心 fs 模块，以及许多其他方法，可以更轻松地使用文件系统。
+
+minimist：解析命令行参数的库，将它们暴露在 argv 对象下。
+
+## zx支持ts执行库
+
+### 1.第一步将package.json中引入模块
+第一步引入typescript和ts-node两个模块
+第二步增加type:"module"模块化.(js支持模块化)
+第三步增加build脚本和运行命令：build和start
+
+## ts模块化
+
+mjs 是 EcmaScript 模块的扩展
+
+Node.js 会将.cjs文件视为 CommonJS 模块，将.mjs文件视为 ECMAScript 模块。 
+它会将.js文件视为项目的默认模块系统（这是 CommonJS，除非package.json说"type": "module", ）。
+
+
+## ts中引入后，没有这个模块
+
+有时候import 一个模块
+error TS1192: Module ‘“fs“‘ has no default export.
+
+使用
+import * as fs from 'fs'
+
+{
+  "compilerOptions": {
+  	"esModuleInterop": true
+  }
+}
+
