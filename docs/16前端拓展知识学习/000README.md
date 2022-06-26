@@ -34,4 +34,9 @@ https://app.yinxiang.com/shard/s37/nl/24388549/689040c6-7de0-4ba0-9262-4dddcd08c
 [002typeScirpt标准补充学习](./002typeScirpt%E6%A0%87%E5%87%86%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0.md)
 
 
-## 
+## 003vue项目中常用ts方式汇总01
+[003vue项目中常用ts方式汇总01](./003vue%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%B8%B8%E7%94%A8ts%E6%96%B9%E5%BC%8F%E6%B1%87%E6%80%BB01.md)
+
+
+## 004React项目中常见ts方式汇总01
+[004React项目中常见ts方式汇总01](./004React%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%B8%B8%E8%A7%81ts%E6%96%B9%E5%BC%8F%E6%B1%87%E6%80%BB01.md)
