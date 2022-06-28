@@ -7,7 +7,7 @@
 [博客首页](./../README.md)  
 
 
-## 网上前端typeSciript入门学习
+## 网上前端typeSciript入门学习基础---复习基础常用
 
 ~~~
 // 1. 自己定义变量可以设置基本类型
@@ -229,3 +229,78 @@ export class SelectItemEntity implements IGrouping {
 
 
 ## interface和type的区别
+
+
+
+
+### 每日ts汇总基础---基础复习版本
+[基础入门学习](https://juejin.cn/post/7018805943710253086#heading-11)
+### js的八种内置类型的表示
+~~~
+
+let str: string = "jimmy";
+let num: number = 24;
+let bool: boolean = false;
+let u: undefined = undefined;
+let n: null = null;
+let obj: object = {x: 1};
+let big: bigint = 100n;
+let sym: symbol = Symbol("me"); 
+
+
+~~~
+
+
+### null和undefined是所有类型的子类型。
+可以将null和undefined赋值给其他类型
+
+
+### 数组两种定义
+~~~
+let arr:string[] = ["1","2"];
+let arr2:Array<string> = ["1","2"]；
+
+
+~~~
+
+
+### 定义对象数组成员的接口
+~~~
+
+// interface是接口,后面会讲到
+interface Arrobj{
+    name:string,
+    age:number
+}
+let arr3:Arrobj[]=[{name:'jimmy',age:22}]
+
+
+~~~
+
+
+### 可选参数
+~~~
+function buildName(firstName: string, lastName?: string) {
+    if (lastName) {
+        return firstName + ' ' + lastName;
+    } else {
+        return firstName;
+    }
+}
+let tomcat = buildName('Tom', 'Cat');
+let tom = buildName('Tom');
+
+~~~
+
+### 参数默认值
+
+~~~
+function buildName(firstName: string, lastName: string = 'Cat') {
+    return firstName + ' ' + lastName;
+}
+let tomcat = buildName('Tom', 'Cat');
+let tom = buildName('Tom');
+
+
+~~~
+
