@@ -9,6 +9,12 @@
 
 
 
+### 000官方API文档：使用说明
+- 一般这里的接口（interface）是所有的内容全局函数和全局属性都在哪里。
+找一些全局的方法就在接口里面找。
+
+- 对于每一个行列的实例使用，在接口下面找。
+
 ### 001项目中引入aggrid
 
 ~~~
@@ -204,5 +210,29 @@ gridOptions.api.setRowData(data);
 当 提供新的行数据时，网格将不会滚动到顶部。
 使用属性：suppressScrollOnNewData,但是实际没有看到效果
 
+
+~~~
+
+
+### 006控制aggrid表格滚动条的监听
+
+~~~
+案例中事件方法：bodyScroll
+那么此时自定义标签中：@body-scroll="myScrollGridFn"
+    function myScrollGridFn(scrollObj:any) {
+        console.log(scrollObj, '---------------x', 'yyyyyyyyyyy', scrollObj);
+        // 如何计算当前的滚动条的位置：
+        // 普通js做法
+        // aggrid做法
+       let FarRight =   scrollObj.columnApi.columnModel.bodyWidth - scrollObj.columnApi.columnModel.scrollWidth;
+       if(scrollObj.left ==0){
+        alert('滚动条到了最左侧');
+
+       }
+
+       if(scrollObj.left == FarRight){
+        alert("滚动条到了最右侧");
+       }
+    }
 
 ~~~

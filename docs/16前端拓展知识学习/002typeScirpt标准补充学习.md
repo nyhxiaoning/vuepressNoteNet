@@ -7,6 +7,21 @@
 [博客首页](./../README.md)  
 
 
+### 000ts中很多项目工程引入一些库报错
+
+【在typesearch查询后安装](https://www.typescriptlang.org/dt/search?search=)
+~~~
+
+npm install --save @types/ui-grid
+
+然后引用即可
+
+import { IUiGridConstants } from 'ui-grid';
+
+
+~~~
+
+方法2：通过
 ## 网上前端typeSciript入门学习基础---复习基础常用
 
 ~~~
