@@ -27,8 +27,8 @@
     }
   },
   "scripts": {
-    "buildDoc": "npm run docs:build  --  --dest='./dist'",
-    "deploy": "gh-pages -d build",
+    "buildDoc": "npm run docs:build  --  --dest=dist",
+    "deploy": "start  deploy.sh",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   }
