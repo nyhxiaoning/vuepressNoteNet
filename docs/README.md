@@ -123,9 +123,17 @@ ts
 
 
 ### 偶尔vuepress打包npm i安装出现问题
-使用yarn 安装就可以了
+使用yarn 安装就可以了或是看看node版本是不是16.5以上。
 
 
+#### 电脑打包环境配置
+~~~
+npm源总是报错。切换yarn
+node版本14.17.1
+yarn版本：1.22.19
+vuepress版本：2.0.0-beta.46
+
+~~~
 ## jenkins触发测试
 
 ### 第二次测试jenkins出发是否成功和docker
