@@ -85,8 +85,12 @@ export default defineUserConfig({
             link:'https://www.processon.com/mindmap/61e232770e3e744157810e27'
           },
           {
-            text: "个人git项目汇总和更新记录",
-            link: "https://www.processon.com/mindmap/61e232770e3e744157810e27",
+            text: "全栈实现前端框架的方案和案例解决汇总",
+            link: "https://www.processon.com/mindmap/6214476d079129079ad749e1",
+          },
+          {
+            text:"个人笔记本电脑文件夹目录内容汇总说明",
+            link:"https://www.processon.com/mindmap/62bfa0205653bb214fa43c29?tutorial=false"
           },
         ],
       },
