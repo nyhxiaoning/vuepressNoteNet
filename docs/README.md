@@ -134,7 +134,7 @@ yarn版本：1.22.19
 vuepress版本：2.0.0-beta.46
 
 ~~~
-## jenkins触发测试
+## 部署触发测试
 
 ### 第二次测试jenkins出发是否成功和docker
 
@@ -146,3 +146,7 @@ gitee测试
 
 最新测试gitee提交
 
+### 测试githubAction成功与否
+2022年7月2日
+
+10点56分
