@@ -89,6 +89,14 @@ export default defineUserConfig({
             link: "https://www.processon.com/mindmap/6214476d079129079ad749e1",
           },
           {
+            text:"vue3开发自定义组件库的网站案例",
+            link:"https://gitee.com/nyhxiaoning/vue3-compoents-libs.git"
+          },
+          {
+            text:"vue2开发自定义组件库的网站案例",
+            link:"https://gitee.com/nyhxiaoning/h5-my-libcomponent-vuecli.git"
+          },
+          {
             text:"个人笔记本电脑文件夹目录内容汇总说明",
             link:"https://www.processon.com/mindmap/62bfa0205653bb214fa43c29?tutorial=false"
           },

@@ -362,14 +362,14 @@ chalk：允许为脚本的输出添加颜色。fetch：可以使用它来发出 
 
 minimist：解析命令行参数的库，将它们暴露在 argv 对象下。
 
-## zx支持ts执行库
+### zx支持ts执行库
 
-### 1.第一步将package.json中引入模块
+#### 1.第一步将package.json中引入模块
 第一步引入typescript和ts-node两个模块
 第二步增加type:"module"模块化.(js支持模块化)
 第三步增加build脚本和运行命令：build和start
 
-## ts模块化
+#### ts模块化
 
 mjs 是 EcmaScript 模块的扩展
 
@@ -377,7 +377,7 @@ Node.js 会将.cjs文件视为 CommonJS 模块，将.mjs文件视为 ECMAScript 
 它会将.js文件视为项目的默认模块系统（这是 CommonJS，除非package.json说"type": "module", ）。
 
 
-## ts中引入后，没有这个模块
+#### ts中引入后，没有这个模块
 
 有时候import 一个模块
 error TS1192: Module ‘“fs“‘ has no default export.
@@ -391,3 +391,16 @@ import * as fs from 'fs'
   }
 }
 
+
+
+### jenkins使用记录命令
+
+~~~
+windows系统的使用jenkins的内容
+22点36分-2022年7月3日
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\test-sh-deploy-jenkins
+
+
+
+
+~~~
