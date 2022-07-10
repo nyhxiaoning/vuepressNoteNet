@@ -14,3 +14,10 @@
 
 ## 003前端开发进阶技术
 [003前端开发进阶技术](./003%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%BF%9B%E9%98%B6%E6%8A%80%E6%9C%AF.md)
+
+
+## 004glob语法库使用
+[004glob语法库使用](./004glob%E8%AF%AD%E6%B3%95%E5%BA%93%E4%BD%BF%E7%94%A8.md)
+
+## 005经典库canvas画excel组件记录
+[005经典库canvas画excel组件记录](./005%E7%BB%8F%E5%85%B8%E5%BA%93canvas%E7%94%BBexcel%E7%BB%84%E4%BB%B6%E8%AE%B0%E5%BD%95.md)
